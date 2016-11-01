@@ -16,7 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Slabo+27px" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body style="background-color: black">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -39,19 +39,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#" style="font-family: 'Montserrat', sans-serif;">Mind Cloud</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a class="page-scroll" href="#about" style="font-family: 'Montserrat', sans-serif;">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a class="page-scroll" href="#services" style="font-family: 'Montserrat', sans-serif;">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="page-scroll"href="#contact" style="font-family: 'Montserrat', sans-serif;">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -70,26 +70,26 @@
         </ol>
 
         <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="margin-top:30px">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:3.jpg"></div>
+                <div class="fill" style="background-image:url('one.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <h2>Website that features business</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:4.jpg"></div>
+                <div class="fill" style="background-image:url('two.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2>Cute websites</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:5.jpg"></div>
+                <div class="fill" style="background-image:url('three.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <h2 style="color:gray;text-align:right">Blogging sites</h2>
                 </div>
             </div>
         </div>
@@ -105,12 +105,42 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" >
 
         <div class="row">
             <div class="col-lg-12">
-                <h1>Full Slider by Start Bootstrap</h1>
-                <p>Feauturing photos</p>
+                <h1 style="font-family: 'Montserrat', sans-serif; text-align:center">Mind Cloud</h1>
+                <p style="font-family: 'PT Sans', sans-serif;font-size:30px;color:white;text-align:center">Above are photos of some of the websites we have designed.</p>
+            </div>
+        </div>
+
+        <hr>
+
+         <div class="row" id="about">
+            <div class="col-lg-12">
+                <h1 style="font-family: 'Montserrat', sans-serif; text-align:center">About Mind Cloud</h1>
+                 <img src="cloud.png">
+                <p style="font-family: 'PT Sans', sans-serif; font-size:30px;color:white; text-align:center">Mind Cloud is where your imaginations are uploaded to the cloud. We create and design websites according to your liking
+                and these are then published n the internet(The Cloud).</p>
+            </div>
+        </div>
+
+        <hr>
+
+         <div class="row" id="services">
+            <div class="col-lg-12">
+                <h1 style="font-family: 'Montserrat', sans-serif; text-align:center">Services</h1>
+                <p style="font-family: 'PT Sans', sans-serif;font-size:30px;color:white; text-align:center">We do Web Layouts and Designs. We also do maintenance and make sure your website is up and running. We also do tutorials on how you can create your own website. We also provide tips and suggestions.</p>
+            </div>
+        </div>
+
+        <hr>
+
+         <div class="row" id="contact"  >
+            <div class="col-lg-12">
+                <h1 style="font-family: 'Montserrat', sans-serif; text-align:center">Contact</h1>
+        
+                <p style="font-family: 'PT Sans', sans-serif;font-size:30px;color:white; text-align:center">Feel free to contact us at hayahmaep@gmail.com </p>
             </div>
         </div>
 
@@ -120,7 +150,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; IJDK 2016</p>
+                    <p>Copyright &copy; Mind Cloud 2016</p>
                 </div>
             </div>
             <!-- /.row -->
